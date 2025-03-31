@@ -1,0 +1,132 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif; /* Choose a clean font */
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  header {
+    background-color: #f0f0f0;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .hero-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .headshot {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  .title {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  .intro {
+    font-size: 1.1rem;
+    color: #444;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  section {
+    margin-bottom: 2rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 0.5rem;
+  }
+  
+  #projects {
+    /* CSS Grid for project cards */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+  }
+  
+  .project-card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .project-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .project-card p {
+    font-size: 1rem;
+  }
+  
+  .skills-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  
+  .skills-list li {
+    background-color: #eee;
+    padding: 0.25rem 0.5rem;
+    border-radius: 3px;
+    font-size: 0.9rem;
+  }
+  
+  #contact ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #contact ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f0f0f0;
+    font-size: 0.8rem;
+    color: #666;
+  }
+  
+  /* Example Hover Effect (using JavaScript) */
+  .project-card {
+    transition: transform 0.2s ease-in-out; /* Smooth transition */
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05); /* Scale up on hover */
+  }
